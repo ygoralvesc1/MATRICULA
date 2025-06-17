@@ -17,9 +17,9 @@ label {
     margin-bottom: .25rem;
 }
 
-input:focus
-select:focus
-textarea:focus
+input:focus,
+select:focus,
+textarea:focus,
 input[type="date"]:focus-within{
     outline: .25rem solid var(--surface-secondary);
     border: .125rem solid var(--stroke-highlight);
@@ -67,7 +67,7 @@ input {
     }
 
     &:invalid {
-        border: 0.125rem solid var(--semantic-error)
+        border: 0.125rem solid var(--semantic-error);
     }
 
     & + small {
@@ -78,7 +78,7 @@ input {
         margin-top: .25rem;
     }
 
-    &[required] + .error {
+    &[required] + .erro {
         display: flex;
         align-items: center;
         gap:.25rem;
@@ -89,12 +89,12 @@ input {
         margin-top: .25rem;
     }
 
-    &:valid + .error {
+    &:valid + .erro {
         display: none;
     }
 }
 
-.error img {
+.erro img {
     width: 1.25rem;
     height: 1.25rem;
 }

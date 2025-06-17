@@ -12,14 +12,14 @@
     --text-primary: #292524;
     --text-secondary: #57534e;
     --text-tertiary: #8f8881;
-    --text-hightlight: #e43a12;
+    --text-highlight: #e43a12;
 
     --surface-primary: #ffffff;
     --surface-secondary: #fee7d6;
     --surface-disabled: #E7E5E4;
 
     --stroke-default: #d6d3d1;
-    --stroke-hightlight: #f3541c;
+    --stroke-highlight: #f3541c;
     --semantic-error: #dc2626;
 }
 
